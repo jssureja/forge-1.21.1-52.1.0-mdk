@@ -1,4 +1,4 @@
-package net.jimit.FurnaceMod;
+package net.jimit.JimitsEndMod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -8,19 +8,18 @@ import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-@Mod(FurnaceMod.MOD_ID)
-public class FurnaceMod {
-    public static final String MOD_ID = "jimitsFurnace";
+@Mod(JimitsEndMod.MOD_ID)
+public class JimitsEndMod {
+    public static final String MOD_ID = "jimitsendmod";
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public FurnaceMod(FMLJavaModLoadingContext context) {
+    public JimitsEndMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
