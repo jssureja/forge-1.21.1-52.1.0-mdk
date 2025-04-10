@@ -1,6 +1,7 @@
 package net.jimit.JimitsEndMod;
 
 import com.mojang.logging.LogUtils;
+import net.jimit.JimitsEndMod.block.ModBlocks;
 import net.jimit.JimitsEndMod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -32,6 +33,7 @@ public class JimitsEndMod {
         modEventBus.addListener(this::addCreative);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -42,6 +44,9 @@ public class JimitsEndMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ENDERITE);
             event.accept(ModItems.RAW_ENDERITE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ENDERITE_BLOCK);
         }
     }
 
