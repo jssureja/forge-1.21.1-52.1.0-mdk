@@ -45,8 +45,13 @@ public class JimitsEndMod {
             event.accept(ModItems.ENDERITE);
             event.accept(ModItems.RAW_ENDERITE);
         }
+
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ENDERITE_BLOCK);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.ENDERITE_ORE);
         }
     }
 
