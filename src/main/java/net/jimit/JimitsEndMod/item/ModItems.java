@@ -13,6 +13,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> ENDERITE = ITEMS.register("enderite",
             () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> RAW_ENDERITE = ITEMS.register("raw_enderite",
             () -> new Item(new Item.Properties()));
 

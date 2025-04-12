@@ -2,10 +2,11 @@ package net.jimit.JimitsEndMod.block;
 
 import net.jimit.JimitsEndMod.JimitsEndMod;
 import net.jimit.JimitsEndMod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,7 +25,7 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> ENDERITE_ORE = registryBlock("enderite_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new DropExperienceBlock(UniformInt.of(4, 5), BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block) {

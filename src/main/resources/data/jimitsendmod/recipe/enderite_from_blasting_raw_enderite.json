@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 2,
+  "group": "enderite",
+  "ingredient": {
+    "item": "jimitsendmod:raw_enderite"
+  },
+  "result": {
+    "id": "jimitsendmod:enderite"
+  }
+}
