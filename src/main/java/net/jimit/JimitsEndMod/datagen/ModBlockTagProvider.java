@@ -12,7 +12,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagProvider extends BlockTagsProvider {
-    public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, String modId, @Nullable ExistingFileHelper existingFileHelper) {
+    public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
         super(output, lookupProvider, JimitsEndMod.MOD_ID, existingFileHelper);
     }
 
@@ -23,7 +23,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ENDERITE_BLOCK.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.ENDERITE_BLOCK.get())
-                .add(ModBlocks.ENDERITE_ORE.get());
+                .add(ModBlocks.ENDERITE_ORE.get())
+                .add(ModBlocks.ENDERITE_BLOCK.get());
     }
 }
