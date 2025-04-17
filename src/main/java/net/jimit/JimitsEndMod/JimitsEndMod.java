@@ -52,6 +52,18 @@ public class JimitsEndMod {
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.ENDERITE_ORE);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.ENDERITE_SWORD);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.ENDERITE_AXE);
+            event.accept(ModItems.ENDERITE_PICKAXE);
+            event.accept(ModItems.ENDERITE_SHOVEL);
+            event.accept(ModItems.ENDERITE_HOE);
+        }
+
     }
 
     @SubscribeEvent

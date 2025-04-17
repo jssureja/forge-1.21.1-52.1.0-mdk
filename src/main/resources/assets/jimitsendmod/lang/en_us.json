@@ -1,6 +1,11 @@
 {
   "item.jimitsendmod.enderite": "Enderite",
   "item.jimitsendmod.raw_enderite": "Raw Enderite",
+  "item.jimitsendmod.enderite_sword": "Enderite Sword",
+  "item.jimitsendmod.enderite_pickaxe": "Enderite Pickaxe",
+  "item.jimitsendmod.enderite_axe": "Enderite Axe",
+  "item.jimitsendmod.enderite_shovel": "Enderite Shovel",
+  "item.jimitsendmod.enderite_hoe": "Enderite Hoe",
 
   "block.jimitsendmod.enderite_block": "Block of Enderite",
   "block.jimitsendmod.enderite_ore": "Enderite Ore"
