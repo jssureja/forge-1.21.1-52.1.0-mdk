@@ -64,6 +64,12 @@ public class JimitsEndMod {
             event.accept(ModItems.ENDERITE_HOE);
         }
 
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.ENDERITE_HELMET);
+            event.accept(ModItems.ENDERITE_CHESTPLATE);
+            event.accept(ModItems.ENDERITE_LEGGINGS);
+            event.accept(ModItems.ENDERITE_BOOTS);
+        }
     }
 
     @SubscribeEvent
