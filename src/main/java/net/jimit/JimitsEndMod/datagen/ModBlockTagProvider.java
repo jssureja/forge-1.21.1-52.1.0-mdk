@@ -27,15 +27,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ENDERITE_BLOCK.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.ENDERITE_ORE.get());
+                .add(ModBlocks.ENDERITE_ORE.get())
+                .add(ModBlocks.ENDERITE_BLOCK.get());
 
         tag(ModTags.Blocks.NEEDS_ENDERITE_TOOL)
-                .add(ModBlocks.ENDERITE_BLOCK.get())
                 .add(Blocks.OBSIDIAN)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         tag(ModTags.Blocks.INCORRECT_FOR_ENDERITE_TOOL)
-                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .remove(ModTags.Blocks.NEEDS_ENDERITE_TOOL);
     }
 }

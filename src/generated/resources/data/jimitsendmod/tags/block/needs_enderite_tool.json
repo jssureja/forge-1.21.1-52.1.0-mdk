@@ -1,6 +1,5 @@
 {
   "values": [
-    "jimitsendmod:enderite_block",
     "minecraft:obsidian",
     "#minecraft:needs_diamond_tool"
   ]
