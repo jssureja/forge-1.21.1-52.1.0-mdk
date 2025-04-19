@@ -55,6 +55,10 @@ public class JimitsEndMod {
 
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.ENDERITE_SWORD);
+            event.accept(ModItems.ENDERITE_HELMET);
+            event.accept(ModItems.ENDERITE_CHESTPLATE);
+            event.accept(ModItems.ENDERITE_LEGGINGS);
+            event.accept(ModItems.ENDERITE_BOOTS);
         }
 
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -62,13 +66,6 @@ public class JimitsEndMod {
             event.accept(ModItems.ENDERITE_PICKAXE);
             event.accept(ModItems.ENDERITE_SHOVEL);
             event.accept(ModItems.ENDERITE_HOE);
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.ENDERITE_HELMET);
-            event.accept(ModItems.ENDERITE_CHESTPLATE);
-            event.accept(ModItems.ENDERITE_LEGGINGS);
-            event.accept(ModItems.ENDERITE_BOOTS);
         }
     }
 

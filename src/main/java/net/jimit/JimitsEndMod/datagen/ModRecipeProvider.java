@@ -75,5 +75,33 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" S ")
                 .pattern(" S ")
                 .unlockedBy(getHasName(ModItems.ENDERITE_HOE.get()), has(ModItems.ENDERITE_HOE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_HELMET.get())
+                .define('E', ModItems.ENDERITE.get())
+                .pattern("EEE")
+                .pattern("E E")
+                .pattern("   ")
+                .unlockedBy(getHasName(ModItems.ENDERITE_HELMET.get()), has(ModItems.ENDERITE_HELMET.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_CHESTPLATE.get())
+                .define('E', ModItems.ENDERITE.get())
+                .pattern("E E")
+                .pattern("EEE")
+                .pattern("EEE")
+                .unlockedBy(getHasName(ModItems.ENDERITE_CHESTPLATE.get()), has(ModItems.ENDERITE_CHESTPLATE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_LEGGINGS.get())
+                .define('E', ModItems.ENDERITE.get())
+                .pattern("EEE")
+                .pattern("E E")
+                .pattern("E E")
+                .unlockedBy(getHasName(ModItems.ENDERITE_LEGGINGS.get()), has(ModItems.ENDERITE_LEGGINGS.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_BOOTS.get())
+                .define('E', ModItems.ENDERITE.get())
+                .pattern("   ")
+                .pattern("E E")
+                .pattern("E E")
+                .unlockedBy(getHasName(ModItems.ENDERITE_BOOTS.get()), has(ModItems.ENDERITE_BOOTS.get())).save(pRecipeOutput);
     }
 }

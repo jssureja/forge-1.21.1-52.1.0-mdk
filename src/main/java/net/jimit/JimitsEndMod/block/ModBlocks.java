@@ -22,11 +22,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ENDERITE_BLOCK = registryBlock("enderite_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(5f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .strength(20.0F, 1200.0F).sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> ENDERITE_ORE = registryBlock("enderite_ore",
-            () -> new DropExperienceBlock(UniformInt.of(4, 5), BlockBehaviour.Properties.of()
-                    .strength(5f).requiresCorrectToolForDrops()));
+            () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
+                    .strength(12.0F, 1200.0F)));
 
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
