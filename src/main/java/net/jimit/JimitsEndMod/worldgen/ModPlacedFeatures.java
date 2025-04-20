@@ -20,7 +20,7 @@ public class ModPlacedFeatures {
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
         register(context, ENDERITE_ORE_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ENDERITE_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(12,
+                ModOrePlacement.commonOrePlacement(6,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(12), VerticalAnchor.absolute(67))));
     }
 
