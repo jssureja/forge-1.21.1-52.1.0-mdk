@@ -1,0 +1,4 @@
+// 1.21.1	2025-04-20T16:50:04.3801123	Registries
+d0ced7d3c2da71b8ad4684f33e27777e53a123c4 data/jimitsendmod/forge/biome_modifier/add_enderite_ore.json
+0e34891d07b62daf2f79dd4a5c5fa222ad26774f data/jimitsendmod/worldgen/configured_feature/enderite_ore.json
+51baf5ca7e77b512dbe740a55a2dcc5699fd7d6e data/jimitsendmod/worldgen/placed_feature/enderite_ore_placed.json
