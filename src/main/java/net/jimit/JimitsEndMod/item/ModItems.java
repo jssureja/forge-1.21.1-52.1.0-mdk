@@ -7,7 +7,10 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.List;
+
 public class ModItems {
+
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, JimitsEndMod.MOD_ID);
 
@@ -52,6 +55,20 @@ public class ModItems {
     public static final RegistryObject<Item> ENDERITE_BOOTS = ITEMS.register("enderite_boots",
             () -> new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(50))));
+
+    public static final List<RegistryObject<Item>> MODDED_ITEMS = List.of(
+            RAW_ENDERITE,
+            ENDERITE,
+            ENDERITE_SWORD,
+            ENDERITE_PICKAXE,
+            ENDERITE_AXE,
+            ENDERITE_SHOVEL,
+            ENDERITE_HOE,
+            ENDERITE_HELMET,
+            ENDERITE_CHESTPLATE,
+            ENDERITE_LEGGINGS,
+            ENDERITE_BOOTS
+    );
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

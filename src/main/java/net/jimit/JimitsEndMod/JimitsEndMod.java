@@ -2,6 +2,7 @@ package net.jimit.JimitsEndMod;
 
 import com.mojang.logging.LogUtils;
 import net.jimit.JimitsEndMod.block.ModBlocks;
+import net.jimit.JimitsEndMod.item.ModCreativeModeTabs;
 import net.jimit.JimitsEndMod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -24,12 +25,11 @@ public class JimitsEndMod {
 
     public JimitsEndMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
-
         modEventBus.addListener(this::commonSetup);
-
         MinecraftForge.EVENT_BUS.register(this);
-
         modEventBus.addListener(this::addCreative);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
