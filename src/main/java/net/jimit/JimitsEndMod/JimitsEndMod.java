@@ -2,7 +2,6 @@ package net.jimit.JimitsEndMod;
 
 import com.mojang.logging.LogUtils;
 import net.jimit.JimitsEndMod.block.ModBlocks;
-import net.jimit.JimitsEndMod.item.ModCreativeModeTabs;
 import net.jimit.JimitsEndMod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
