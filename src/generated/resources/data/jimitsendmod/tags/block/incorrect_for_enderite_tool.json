@@ -2,5 +2,7 @@
   "remove": [
     "#jimitsendmod:needs_enderite_tool"
   ],
-  "values": []
+  "values": [
+    "#minecraft:incorrect_for_diamond_tool"
+  ]
 }
