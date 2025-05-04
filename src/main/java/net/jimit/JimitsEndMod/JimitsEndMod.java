@@ -3,6 +3,7 @@ package net.jimit.JimitsEndMod;
 import com.mojang.logging.LogUtils;
 import net.jimit.JimitsEndMod.block.ModBlocks;
 import net.jimit.JimitsEndMod.item.ModItems;
+import net.jimit.JimitsEndMod.item.custom.EnderiteStaff;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -65,6 +66,7 @@ public class JimitsEndMod {
             event.accept(ModItems.ENDERITE_PICKAXE);
             event.accept(ModItems.ENDERITE_SHOVEL);
             event.accept(ModItems.ENDERITE_HOE);
+            event.accept(ModItems.ENDERITE_STAFF);
         }
     }
 

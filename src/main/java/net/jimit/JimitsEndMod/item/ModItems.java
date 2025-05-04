@@ -1,6 +1,7 @@
 package net.jimit.JimitsEndMod.item;
 
 import net.jimit.JimitsEndMod.JimitsEndMod;
+import net.jimit.JimitsEndMod.item.custom.EnderiteStaff;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -56,6 +57,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(50))));
 
+    public static final RegistryObject<Item> ENDERITE_STAFF = ITEMS.register("enderite_staff",
+            () -> new EnderiteStaff(new Item.Properties().stacksTo(1).durability(128)));
+
     public static final List<RegistryObject<Item>> MODDED_ITEMS = List.of(
             RAW_ENDERITE,
             ENDERITE,
@@ -67,7 +71,8 @@ public class ModItems {
             ENDERITE_HELMET,
             ENDERITE_CHESTPLATE,
             ENDERITE_LEGGINGS,
-            ENDERITE_BOOTS
+            ENDERITE_BOOTS,
+            ENDERITE_STAFF
     );
 
     public static void register(IEventBus eventBus) {

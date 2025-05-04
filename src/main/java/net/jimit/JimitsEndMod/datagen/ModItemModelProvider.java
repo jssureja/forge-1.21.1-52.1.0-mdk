@@ -47,6 +47,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ENDERITE_AXE);
         handheldItem(ModItems.ENDERITE_SHOVEL);
         handheldItem(ModItems.ENDERITE_HOE);
+        handheldItem(ModItems.ENDERITE_STAFF);
 
         trimmedArmorItem(ModItems.ENDERITE_HELMET);
         trimmedArmorItem(ModItems.ENDERITE_CHESTPLATE);
