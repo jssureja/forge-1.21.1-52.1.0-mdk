@@ -1,7 +1,7 @@
-package net.jimit.JimitsEndMod.block;
+package net.jimit.jimitsendmod.block;
 
-import net.jimit.JimitsEndMod.JimitsEndMod;
-import net.jimit.JimitsEndMod.item.ModItems;
+import net.jimit.jimitsendmod.JimitsEndMod;
+import net.jimit.jimitsendmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

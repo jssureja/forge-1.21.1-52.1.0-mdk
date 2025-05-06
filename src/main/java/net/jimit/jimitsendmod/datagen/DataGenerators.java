@@ -1,6 +1,6 @@
-package net.jimit.JimitsEndMod.datagen;
+package net.jimit.jimitsendmod.datagen;
 
-import net.jimit.JimitsEndMod.JimitsEndMod;
+import net.jimit.jimitsendmod.JimitsEndMod;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;

@@ -1,7 +1,7 @@
-package net.jimit.JimitsEndMod;
+package net.jimit.jimitsendmod;
 
-import net.jimit.JimitsEndMod.block.ModBlocks;
-import net.jimit.JimitsEndMod.item.ModItems;
+import net.jimit.jimitsendmod.block.ModBlocks;
+import net.jimit.jimitsendmod.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

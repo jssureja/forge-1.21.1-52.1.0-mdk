@@ -1,4 +1,4 @@
-package net.jimit.JimitsEndMod.item.custom;
+package net.jimit.jimitsendmod.item.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;

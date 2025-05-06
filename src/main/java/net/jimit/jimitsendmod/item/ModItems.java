@@ -1,7 +1,7 @@
-package net.jimit.JimitsEndMod.item;
+package net.jimit.jimitsendmod.item;
 
-import net.jimit.JimitsEndMod.JimitsEndMod;
-import net.jimit.JimitsEndMod.item.custom.EnderiteStaff;
+import net.jimit.jimitsendmod.JimitsEndMod;
+import net.jimit.jimitsendmod.item.custom.EnderiteStaff;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

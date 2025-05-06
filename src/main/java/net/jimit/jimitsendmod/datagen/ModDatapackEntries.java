@@ -1,9 +1,9 @@
-package net.jimit.JimitsEndMod.datagen;
+package net.jimit.jimitsendmod.datagen;
 
-import net.jimit.JimitsEndMod.JimitsEndMod;
-import net.jimit.JimitsEndMod.worldgen.ModBiomeModifiers;
-import net.jimit.JimitsEndMod.worldgen.ModConfiguredFeatures;
-import net.jimit.JimitsEndMod.worldgen.ModPlacedFeatures;
+import net.jimit.jimitsendmod.JimitsEndMod;
+import net.jimit.jimitsendmod.worldgen.ModBiomeModifiers;
+import net.jimit.jimitsendmod.worldgen.ModConfiguredFeatures;
+import net.jimit.jimitsendmod.worldgen.ModPlacedFeatures;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;

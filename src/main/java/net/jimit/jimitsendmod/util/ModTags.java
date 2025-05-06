@@ -1,6 +1,6 @@
-package net.jimit.JimitsEndMod.util;
+package net.jimit.jimitsendmod.util;
 
-import net.jimit.JimitsEndMod.JimitsEndMod;
+import net.jimit.jimitsendmod.JimitsEndMod;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;

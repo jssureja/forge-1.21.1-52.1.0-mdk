@@ -1,7 +1,7 @@
-package net.jimit.JimitsEndMod.datagen;
+package net.jimit.jimitsendmod.datagen;
 
-import net.jimit.JimitsEndMod.block.ModBlocks;
-import net.jimit.JimitsEndMod.item.ModItems;
+import net.jimit.jimitsendmod.block.ModBlocks;
+import net.jimit.jimitsendmod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;

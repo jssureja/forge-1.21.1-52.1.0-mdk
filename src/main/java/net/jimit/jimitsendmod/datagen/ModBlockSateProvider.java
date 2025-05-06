@@ -1,7 +1,7 @@
-package net.jimit.JimitsEndMod.datagen;
+package net.jimit.jimitsendmod.datagen;
 
-import net.jimit.JimitsEndMod.JimitsEndMod;
-import net.jimit.JimitsEndMod.block.ModBlocks;
+import net.jimit.jimitsendmod.JimitsEndMod;
+import net.jimit.jimitsendmod.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;

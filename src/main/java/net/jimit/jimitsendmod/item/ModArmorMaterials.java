@@ -1,6 +1,6 @@
-package net.jimit.JimitsEndMod.item;
+package net.jimit.jimitsendmod.item;
 
-import net.jimit.JimitsEndMod.JimitsEndMod;
+import net.jimit.jimitsendmod.JimitsEndMod;
 import net.minecraft.Util;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;

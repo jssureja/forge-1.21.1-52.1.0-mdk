@@ -1,6 +1,6 @@
-package net.jimit.JimitsEndMod.item;
+package net.jimit.jimitsendmod.item;
 
-import net.jimit.JimitsEndMod.util.ModTags;
+import net.jimit.jimitsendmod.util.ModTags;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;

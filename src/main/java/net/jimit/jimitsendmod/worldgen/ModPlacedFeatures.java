@@ -1,6 +1,6 @@
-package net.jimit.JimitsEndMod.worldgen;
+package net.jimit.jimitsendmod.worldgen;
 
-import net.jimit.JimitsEndMod.JimitsEndMod;
+import net.jimit.jimitsendmod.JimitsEndMod;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;

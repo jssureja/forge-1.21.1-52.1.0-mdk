@@ -1,4 +1,4 @@
-package net.jimit.JimitsEndMod.worldgen;
+package net.jimit.jimitsendmod.worldgen;
 
 import net.minecraft.world.level.levelgen.placement.*;
 
