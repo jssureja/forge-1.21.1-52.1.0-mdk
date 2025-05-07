@@ -2,23 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:ender_eye"
-    },
-    "D": {
-      "item": "minecraft:dragon_breath"
+    "C": {
+      "item": "jimitsendmod:ender_core"
     },
     "E": {
-      "item": "jimitsendmod:ender_essence"
-    },
-    "N": {
-      "item": "minecraft:nether_star"
+      "item": "jimitsendmod:enderite"
     }
   },
   "pattern": [
-    "EDA",
-    "DND",
-    "ADE"
+    "C",
+    "E",
+    "E"
   ],
   "result": {
     "count": 1,

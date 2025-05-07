@@ -42,6 +42,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ENDERITE.get());
         basicItem(ModItems.RAW_ENDERITE.get());
         basicItem(ModItems.ENDER_ESSENCE.get());
+        basicItem(ModItems.ENDER_CORE.get());
 
         handheldItem(ModItems.ENDERITE_SWORD);
         handheldItem(ModItems.ENDERITE_PICKAXE);

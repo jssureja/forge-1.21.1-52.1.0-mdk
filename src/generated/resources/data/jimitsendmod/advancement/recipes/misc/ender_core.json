@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "jimitsendmod:enderite_staff"
+        "recipe": "jimitsendmod:ender_core"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "jimitsendmod:enderite_staff"
+      "jimitsendmod:ender_core"
     ]
   }
 }

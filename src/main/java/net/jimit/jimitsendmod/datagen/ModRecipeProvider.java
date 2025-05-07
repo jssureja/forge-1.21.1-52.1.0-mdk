@@ -105,7 +105,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("E E")
                 .unlockedBy(getHasName(ModItems.ENDERITE_BOOTS.get()), has(ModItems.ENDERITE_BOOTS.get())).save(pRecipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_STAFF.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDER_CORE.get())
                 .define('D', Items.DRAGON_BREATH)
                 .define('A', Items.ENDER_EYE)
                 .define('N', Items.NETHER_STAR)
@@ -113,6 +113,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("EDA")
                 .pattern("DND")
                 .pattern("ADE")
+                .unlockedBy(getHasName(ModItems.ENDER_CORE.get()), has(ModItems.ENDER_CORE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_STAFF.get())
+                .define('E', ModItems.ENDERITE.get())
+                .define('C', ModItems.ENDER_CORE.get())
+                .pattern("C")
+                .pattern("E")
+                .pattern("E")
                 .unlockedBy(getHasName(ModItems.ENDERITE_STAFF.get()), has(ModItems.ENDERITE_STAFF.get())).save(pRecipeOutput);
     }
 }

@@ -63,10 +63,14 @@ public class ModItems {
     public static final RegistryObject<Item> ENDER_ESSENCE = ITEMS.register("ender_essence",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ENDER_CORE = ITEMS.register("ender_core",
+            () -> new Item(new Item.Properties()));
+
     public static final List<RegistryObject<Item>> MODDED_ITEMS = List.of(
             RAW_ENDERITE,
             ENDERITE,
             ENDER_ESSENCE,
+            ENDER_CORE,
             ENDERITE_SWORD,
             ENDERITE_PICKAXE,
             ENDERITE_AXE,
