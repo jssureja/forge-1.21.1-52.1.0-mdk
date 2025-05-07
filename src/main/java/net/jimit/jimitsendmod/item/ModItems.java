@@ -60,9 +60,13 @@ public class ModItems {
     public static final RegistryObject<Item> ENDERITE_STAFF = ITEMS.register("enderite_staff",
             () -> new EnderiteStaff(new Item.Properties().stacksTo(1).durability(128)));
 
+    public static final RegistryObject<Item> ENDER_ESSENCE = ITEMS.register("ender_essence",
+            () -> new Item(new Item.Properties()));
+
     public static final List<RegistryObject<Item>> MODDED_ITEMS = List.of(
             RAW_ENDERITE,
             ENDERITE,
+            ENDER_ESSENCE,
             ENDERITE_SWORD,
             ENDERITE_PICKAXE,
             ENDERITE_AXE,

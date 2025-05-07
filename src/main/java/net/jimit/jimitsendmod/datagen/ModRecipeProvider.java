@@ -2,6 +2,7 @@ package net.jimit.jimitsendmod.datagen;
 
 import net.jimit.jimitsendmod.block.ModBlocks;
 import net.jimit.jimitsendmod.item.ModItems;
+import net.minecraft.client.Minecraft;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -103,5 +104,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("E E")
                 .pattern("E E")
                 .unlockedBy(getHasName(ModItems.ENDERITE_BOOTS.get()), has(ModItems.ENDERITE_BOOTS.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_STAFF.get())
+                .define('D', Items.DRAGON_BREATH)
+                .define('A', Items.ENDER_EYE)
+                .define('N', Items.NETHER_STAR)
+                .define('E', ModItems.ENDER_ESSENCE.get())
+                .pattern("EDA")
+                .pattern("DND")
+                .pattern("ADE")
+                .unlockedBy(getHasName(ModItems.ENDERITE_STAFF.get()), has(ModItems.ENDERITE_STAFF.get())).save(pRecipeOutput);
     }
 }

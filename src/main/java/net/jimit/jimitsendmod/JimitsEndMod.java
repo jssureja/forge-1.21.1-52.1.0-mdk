@@ -42,6 +42,7 @@ public class JimitsEndMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ENDERITE);
             event.accept(ModItems.RAW_ENDERITE);
+            event.accept(ModItems.ENDER_ESSENCE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
