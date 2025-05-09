@@ -3,6 +3,7 @@ package net.jimit.jimitsendmod;
 import com.mojang.logging.LogUtils;
 import net.jimit.jimitsendmod.block.ModBlocks;
 import net.jimit.jimitsendmod.item.ModItems;
+import net.jimit.jimitsendmod.loot.ModLootModifier;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,6 +33,8 @@ public class JimitsEndMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifier.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
